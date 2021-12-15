@@ -1,6 +1,6 @@
 import { Pool } from "pg";
 
-var pool = new Pool({
+export var pool = new Pool({
   user: "postgres",
   host: "localhost",
   password: "",
